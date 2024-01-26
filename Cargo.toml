@@ -1,0 +1,8 @@
+[package]
+name = "telegraf_coretemp"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+winapi = { version = "0.3.9", features = ["memoryapi", "fileapi", "errhandlingapi", "handleapi", "winbase"]}
+
